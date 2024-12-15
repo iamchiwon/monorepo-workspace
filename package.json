@@ -10,5 +10,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "packageManager": "pnpm@9.15.0",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.9.0",
+    "@aws-amplify/backend-cli": "^1.4.3",
+    "aws-cdk": "^2",
+    "aws-cdk-lib": "^2",
+    "constructs": "^10.0.0",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.10.3"
+  }
 }
